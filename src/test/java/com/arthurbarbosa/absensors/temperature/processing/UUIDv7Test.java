@@ -1,8 +1,8 @@
 package com.arthurbarbosa.absensors.temperature.processing;
 
-import com.fasterxml.uuid.Generators;
-import com.fasterxml.uuid.impl.TimeBasedEpochRandomGenerator;
+import com.arthurbarbosa.absensors.temperature.processing.common.IdGenerator;
 
+import com.arthurbarbosa.absensors.temperature.processing.common.UUIDv7Utils;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

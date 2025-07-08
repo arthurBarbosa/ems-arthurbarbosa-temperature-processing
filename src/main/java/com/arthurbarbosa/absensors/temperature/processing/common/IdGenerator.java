@@ -1,4 +1,4 @@
-package com.arthurbarbosa.absensors.temperature.processing;
+package com.arthurbarbosa.absensors.temperature.processing.common;
 
 import com.fasterxml.uuid.Generators;
 import com.fasterxml.uuid.impl.TimeBasedEpochRandomGenerator;
@@ -12,7 +12,7 @@ public class IdGenerator {
 
     }
 
-    public static UUID generateTimeBaseUUID() {
+    public static UUID generateTimeBasedUUID() {
         return timeBasedEpochRandomGenerator.generate();
     }
 }

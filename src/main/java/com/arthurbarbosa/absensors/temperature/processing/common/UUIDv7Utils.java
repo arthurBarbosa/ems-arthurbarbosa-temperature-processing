@@ -1,4 +1,4 @@
-package com.arthurbarbosa.absensors.temperature.processing;
+package com.arthurbarbosa.absensors.temperature.processing.common;
 
 import java.time.Instant;
 import java.time.OffsetDateTime;
